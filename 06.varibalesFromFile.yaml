@@ -2,7 +2,7 @@
 - name: varibales from play 1
   hosts: localhost
   vars:
-    - variable.yaml
+  - variable.yaml
   tasks:
   - name: varibles check
     vars:
