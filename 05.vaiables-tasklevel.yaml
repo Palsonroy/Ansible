@@ -9,6 +9,6 @@
   tasks:
   - name: varibles check
     vars:
-      Coursename: "Devops"
+      Coursename: "Devops with aws"
     ansible.builtin.debug:
       msg: "hai iam learing {{Coursename}} and the trainer {{Trainername}} is  with duration is {{Duration}}"
