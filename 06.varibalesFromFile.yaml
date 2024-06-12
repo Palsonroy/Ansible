@@ -1,0 +1,11 @@
+
+- name: varibales from play 1
+  hosts: localhost
+  vars:
+    - variable.yaml
+  tasks:
+  - name: varibles check
+    vars:
+      Coursename: "Devops with aws"
+    ansible.builtin.debug:
+      msg: "hai iam learing {{Coursename}} and the trainer {{Trainername}} is  with duration is {{Duration}}"
