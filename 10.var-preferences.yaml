@@ -8,10 +8,10 @@
   - varibale.yaml
       
   vars_prompt:
-  - person: PERSON
+  - name: PERSON
     prompt: "enter the name"
     private: false
-  - person: WISHES
+  - name: WISHES
     prompt: "enter your wishes"
     private: false
 
