@@ -1,5 +1,5 @@
 - name: datatypes
-  hosts: localhosts
+  hosts: localhost
   vars:
     NAME: PALSON
     Skills: 
