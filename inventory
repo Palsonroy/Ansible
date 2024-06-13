@@ -8,6 +8,15 @@
 192.188.50.4
 192.188.50.5
 
+[localhost]
+localhost
+
+[localhost:vars]
+
+Coursename="Devops with aws from inventory"
+Trainername="sivakumar"
+Duration="110 hrs"
+
 [cart]
 192.188.50.6
 192.188.50.7
