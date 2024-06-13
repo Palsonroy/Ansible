@@ -1,21 +1,18 @@
 - name: datatypes
   hosts: localhosts
   vars:
-   NAME: PALSON
-   Skills: 
-   - java
-   - spring
-   - aws
-   - ansible
-   
-   Experience:
-     java : 1
-     spring: 1
-     aws: 2
-     ansible: 1
-
+    NAME: PALSON
+    Skills: 
+    - java
+    - spring
+    - aws
+    - ansible
+    Experience:
+      java: 1
+      spring: 1
+      aws: 2
+      ansible: 1
     Trainer: true
-
   tasks: 
   - name: to print key value pair
     ansible.builtin.debug:
