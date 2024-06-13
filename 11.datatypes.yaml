@@ -23,9 +23,9 @@
       msg: "skills: {{Skills}}"
   
   - name: print map
-    ansible.buitlin.debug:
+    ansible.builtin.debug:
       msg: "experience: {{Experience}}"
   
   - name: print boolean
-    ansible.buitlin.debug:
+    ansible.builtin.debug:
       msg: "is he trainer: {{Trainer}}"
