@@ -1,10 +1,10 @@
 - name: loops
   hosts: localhost
   tasks:
-  - name: excute the loop
+  - name: print the loop
     ansible.builtin.debug:
-      name: "{{item}}"
-      state: present
+      msg: "skills are {{item}}"
+      
     loop:
     - devops
     - aws
