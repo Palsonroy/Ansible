@@ -2,8 +2,8 @@
   hosts: localhost
   become: yes
   tasks:
-  - name: install packages
-    ansible.buitln.package:
+  - name: print persons
+    ansible.builtln.package:
         name: "{{item}}"
         state: present
     loop:
