@@ -1,11 +1,11 @@
 - name: install packages
   hosts: localhost
+  become: yes
   tasks:
-    - name: install packages
+  - name: install packages
       ansible.buitln.package
         name: "{{item}}"
         state: present
-    
       loop:
       - java 
       - git
