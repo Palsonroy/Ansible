@@ -1,0 +1,11 @@
+- name: install packages
+  hosts: localhost
+  tasks:
+    - name: install packages
+      ansible.buitln.package
+        name: "{{item}}"
+        state: present
+    
+      loop:
+      - java 
+      - git
