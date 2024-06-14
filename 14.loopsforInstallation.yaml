@@ -4,8 +4,8 @@
   tasks:
   - name: print persons
     ansible.builtln.package:
-        name: "{{item}}"
-        state: present
+      name: "{{item}}"
+      state: present
     loop:
     - java 
     - git
