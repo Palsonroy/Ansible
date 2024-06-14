@@ -3,9 +3,9 @@
   become: yes
   tasks:
   - name: install packages
-      ansible.buitln.package:
+    ansible.buitln.package:
         name: "{{item}}"
         state: present
-      loop:
-      - java 
-      - git
+    loop:
+    - java 
+    - git
