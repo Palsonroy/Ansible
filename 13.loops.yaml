@@ -1,0 +1,12 @@
+- name: loops
+  hosts: localhost
+  tasks:
+    - name: excute the loop
+      ansible.builtin.debug:
+        msg: "Skills are {{item}}"
+  
+    loops:
+    - devops
+    - aws
+    - java
+    - ansible
